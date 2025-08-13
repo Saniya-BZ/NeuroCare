@@ -40,5 +40,4 @@ NeuroCare is a next-generation digital mental health assistant designed to provi
 
 ---
 
-## 📂 Project Structure  
 
