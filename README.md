@@ -2,41 +2,25 @@
 *AI-Powered Mental Health Support Platform*  
 
 NeuroCare is a next-generation digital mental health assistant designed to provide safe, responsible, and effective support for mental well-being. Built with an AI agent architecture and powered by **Google’s MedGemma** specialist healthcare LLM, NeuroCare integrates advanced conversational AI with life-saving tools such as **emergency calling** and **location services**.  
+It is a accessible support via **WhatsApp**. It integrates **LangChain Agents, OpenAI GPT-4, and external APIs** to deliver therapeutic guidance, emergency intervention, and location-based professional recommendations.  
 
 ---
 
-## 🚀 Features  
-
-- **Specialist Healthcare AI**  
-  - Powered by **Google MedGemma** (healthcare-focused LLM) for clinically relevant, context-aware responses.  
-  - Utilizes **Ollama** and multiple LLM APIs (**GPT-4**, **Claude**, **Groq**) for flexible, multimodal capabilities.  
-
-- **AI Agent Workflows**  
-  - Developed using **LangChain** and **LangGraph** for dynamic, goal-driven conversations.  
-  - Agentic workflows enable multi-step reasoning, decision-making, and escalation to professional support.  
-
-- **Life-Saving Tools**  
-  - **Emergency Calling** via **Twilio** for immediate crisis response.  
-  - **Location Services** for faster emergency dispatch.  
-  - Integrated escalation pathways to professional therapists or helplines.  
-
-- **Full-Stack Architecture**  
-  - **Streamlit** for a clean, responsive, and user-friendly frontend.  
-  - **FastAPI** backend for high-performance, scalable AI integrations.  
-  - Secure API communication with input validation and error handling.  
+## ✨ Features  
+- 🤖 **AI Therapy Conversations** – Empathetic, evidence-based responses powered by MedGemma + GPT-4  
+- 🚨 **Crisis Detection & Emergency Response** – Automatic emergency call via **Twilio** if user expresses suicidal intent  
+- 📍 **Therapist Finder Tool** – Finds nearby therapists using **Google Maps API** (name, address, phone)  
+- 💬 **WhatsApp Integration** – Real-time chatbot via **Twilio WhatsApp API** & **ngrok**  
+- 🔄 **Agent Workflow** – Built with **LangChain ReAct Agent**, choosing the right tool based on user query  
 
 ---
 
-## 🛠 Tech Stack  
+## 🛠️ Tech Stack  
+- **Languages & Frameworks**: Python, FastAPI, Streamlit (legacy UI)  
+- **AI / LLMs**: OpenAI GPT-4, MedGemma  
+- **APIs**: Twilio WhatsApp API, Google Maps API  
+- **Tools**: LangChain, Ngrok, dotenv, Google Cloud Console , GCP
 
-| Layer        | Technology |
-|--------------|------------|
-| **Frontend** | Streamlit |
-| **Backend**  | FastAPI |
-| **LLM**      | Google MedGemma, GPT-4, Claude, Groq |
-| **AI Agents**| LangChain, LangGraph |
-| **Tools**    | Twilio (Emergency Calls), Location APIs |
-| **Model Hosting** | Ollama |
 
 ---
 
